@@ -101,5 +101,137 @@ header { background: #800000; color: white; padding: 15px; text-align: center; }
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAMJA PERFUME SHOP - Royal Attars & Oud</title>
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: 'Segoe UI', Arial; background:#000; color:#fff; }
+  
+  /* HEADER - LOGO TOP CENTER */
+  .header { 
+    background: linear-gradient(180deg, #000 0%, #111 100%); 
+    text-align:center; 
+    padding:30px 20px; 
+    border-bottom:2px solid #D4AF37; 
+  }
+  .logo { 
+    width:260px; 
+    max-width:90%;
+    display:block;
+    margin:0 auto 12px auto; 
+    filter: drop-shadow(0 0 15px #D4AF37);
+  }
+  .tagline { color:#D4AF37; font-size:15px; letter-spacing:3px; font-weight:600; }
+
+  /* BANNER */
+  .banner { background:#0a0a0a; text-align:center; padding:70px 20px; }
+  .banner h1 { font-size:42px; color:#D4AF37; margin-bottom:10px; letter-spacing:2px; }
+  .banner p { color:#ccc; font-size:16px; margin-bottom:25px; }
+  .btn { 
+    background:#D4AF37; color:#000; padding:15px 40px; border:none; 
+    font-weight:bold; border-radius:8px; font-size:16px; cursor:pointer;
+    box-shadow: 0 0 20px rgba(212,175,55,0.5);
+  }
+  .btn:hover { background:#e5c100; }
+
+  /* GALLERY */
+  .gallery { 
+    display:grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap:25px; 
+    padding:50px 20px; 
+    background:#000;
+  }
+  .card { 
+    background:#111; 
+    border:1px solid #D4AF37; 
+    border-radius:12px; 
+    padding:15px; 
+    text-align:center;
+    transition: transform 0.3s;
+  }
+  .card:hover { transform: scale(1.03); border-color:#fff; }
+  .card img { width:100%; border-radius:8px; margin-bottom:10px; }
+  .price { color:#D4AF37; font-size:20px; font-weight:bold; margin:8px 0; }
+  .order-btn { 
+    background:#25D366; color:#fff; padding:10px 20px; 
+    border-radius:6px; text-decoration:none; display:inline-block; 
+    font-weight:bold; margin-top:5px;
+  }
+
+  /* OFFER & ABOUT */
+  .section { padding:50px 20px; text-align:center; }
+  .offer { background:#111; border-top:2px solid #D4AF37; border-bottom:2px solid #D4AF37; }
+  .section h2 { color:#D4AF37; font-size:30px; margin-bottom:15px; }
+
+  /* FOOTER */
+  .footer { background:#000; padding:30px; text-align:center; border-top:2px solid #D4AF37; }
+  .footer a { color:#D4AF37; text-decoration:none; margin:0 10px; font-weight:bold; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <img src="logo-lamja.png" alt="LAMJA PERFUME" class="logo">
+  <div class="tagline">KANNAUJ KI ASLI KHUSHBU</div>
+</header>
+
+<!-- BANNER -->
+<section class="banner">
+  <h1>ROYAL ATTARS & OUD</h1>
+  <p>100% Original | Long Lasting 8-10 Hours</p>
+  <button class="btn" onclick="window.open('https://wa.me/917834852044')">SHOP ON WHATSAPP</button>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery">
+  <div class="card">
+    <img src="perfume-1.jpg" alt="Attar Bottle">
+    <div class="price">₹100</div>
+    <a href="https://wa.me/917834852044" class="order-btn">Order on WhatsApp</a>
+  </div>
+  <div class="card">
+    <img src="perfume-2.jpg" alt="Attar Bottle">
+    <div class="price">₹300</div>
+    <a href="https://wa.me/917834852044" class="order-btn">Order on WhatsApp</a>
+  </div>
+  <div class="card">
+    <img src="perfume-3.jpg" alt="Attar Bottle">
+    <div class="price">₹300</div>
+    <a href="https://wa.me/917834852044" class="order-btn">Order on WhatsApp</a>
+  </div>
+  <div class="card">
+    <img src="perfume-4.jpg" alt="Attar Bottle">
+    <div class="price">₹300</div>
+    <a href="https://wa.me/917834852044" class="order-btn">Order on WhatsApp</a>
+  </div>
+</div>
+
+<!-- OFFER -->
+<section class="section offer">
+  <h2>BUY 2 ATTAR GET 1 FREE</h2>
+  <p>Limited Time Offer</p>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>ABOUT LAMJA PERFUME</h2>
+  <p>Kannauj के असली इत्र। शुद्ध और लम्बे समय तक चलने वाली खुशबू।</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p><b>Contact:</b> 7834852044</p>
+  <p><b>WhatsApp:</b> <a href="https://wa.me/917834852044">7834852044</a></p>
+  <p style="margin-top:20px; font-size:12px; color:#888;">© 2026 LAMJA PERFUME SHOP. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
 
    
