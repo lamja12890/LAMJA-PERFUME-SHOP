@@ -97,3 +97,294 @@ header { background: #800000; color: white; padding: 15px; text-align: center; }
     <a href="https://wa.me/917834852044" class="order-btn">Order on WhatsApp</a>
   </div>
 </div>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LAMJA Perfume Shop</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f3ee;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 15px;
+      color: #ddd;
+    }
+
+    .products {
+      width: 92%;
+      max-width: 1100px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 180px;
+      height: 180px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 12px;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .size {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 8px 0 12px;
+    }
+
+    .order-btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 9px 18px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .order-btn:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+      .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        width: 94%;
+      }
+
+      .card {
+        padding: 10px;
+      }
+
+      .card img {
+        height: 140px;
+        max-width: 140px;
+      }
+
+      .card h2 {
+        font-size: 16px;
+      }
+
+      .price {
+        font-size: 17px;
+      }
+
+      .order-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .products {
+        grid-template-columns: 1fr;
+      }
+
+      .card img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to LAMJA Perfume Shop</h1>
+    <p>Premium Fragrances at Affordable Prices</p>
+  </header>
+
+  <main class="products">
+
+    <div class="card">
+      <img src="perfume-1.jpeg" alt="Kala Bhoot Perfume">
+      <h2>Kala Bhoot</h2>
+      <p class="size">6ml</p>
+      <p class="price">₹180</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Kala%20Bhoot%206ml"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-2.jpeg" alt="Blue France Perfume">
+      <h2>Blue France</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Blue%20France%2012ml"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-3.jpeg" alt="Kacha Bela Perfume">
+      <h2>Kacha Bela</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Kacha%20Bela%2012ml"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-4.jpeg" alt="Fancy Bottle Perfume">
+      <h2>Fancy Bottle</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Fancy%20Bottle"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-5.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-6.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-7.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-8.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-9.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="perfume-10.jpeg" alt="Perfume">
+      <h2>Premium Perfume</h2>
+      <p class="size">12ml</p>
+      <p class="price">₹200</p>
+      <a class="order-btn"
+         href="https://wa.me/917834852044?text=I%20want%20to%20order%20Premium%20Perfume"
+         target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2026 LAMJA Perfume Shop
+  </footer>
+
+</body>
+</html>
