@@ -71,6 +71,14 @@ footer h2{font-family:'Cinzel',serif;color:var(--gold)}
     <div class="card"><img src="blue-france.jpeg"><h3>Blue France</h3><p>Luxury Party Wear, Cool Fragnace</p><div class="price">₹200</div><a class="buy" href="https://wa.me/917834852044?text=Mujhe Blue Franco chahiye">Buy Now</a></div>
   </div>
 </section>
+  <script>
+function buyNow(name, price, photo) {
+  var number = "917834852844";
+  var fullPhotoLink = "https://lamia-perfume-shop.github.io/main/" + photo;
+  var message = "Hello LAMIA%0AMujhe ye chahiye: *" + name + "*%0APrice: " + price + "%0APhoto: " + fullPhotoLink;
+  window.open("https://wa.me/" + number + "?text=" + message, "_blank");
+}
+</script>
 
 <footer>
   <h2>LAMJA PERFUME SHOP</h2>
@@ -122,7 +130,7 @@ function buyNow(name, price, photo) {
   // agar github preview me ho to direct photo naam bhejega
   if(fullPhotoLink.includes('github.com')){ fullPhotoLink = photo; }
   
-  var message = "Hello LAMIA PERFUME SHOP%0A%0AMujhe ye bottle chahiye:%0A📦 *" + name + "*%0A💰 " + price + "%0A🖼️ Photo: " + fullPhotoLink + "%0A%0AYe available hai?";
+  var message = "Hello LAMJA PERFUME SHOP%0A%0AMujhe ye bottle chahiye:%0A📦 *" + name + "*%0A💰 " + price + "%0A🖼️ Photo: " + fullPhotoLink + "%0A%0AYe available hai?";
   
   window.open("https://wa.me/" + number + "?text=" + message, "_blank");
 }
