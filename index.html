@@ -79,6 +79,54 @@ footer h2{font-family:'Cinzel',serif;color:var(--gold)}
   <br>
   <a href="https://wa.me/917834852044" style="background:#25D366;color:#fff;padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:bold">WhatsApp Pe Order Karein</a>
 </footer>
+  <h2 class="section-title">Our Best-seller Perfumes</h2>
+<div class="grid">
+
+<div class="card">
+<img src="perfume-1.jpeg"><h3>Fancy Bottle</h3><p>Crystal Glass</p><div class="price">₹350</div>
+<button onclick="buyNow('Crystal Glass','₹350','perfume-1.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="perfume-3.jpeg"><h3>Fancy Bottle</h3><p>Blue Diamond</p><div class="price">₹350</div>
+<button onclick="buyNow('Blue Diamond','₹350','perfume-3.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="perfume-6.jpeg"><h3>Fancy Bottle</h3><p>Royal King</p><div class="price">₹550</div>
+<button onclick="buyNow('Royal King','₹550','perfume-6.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="perfume-7.jpeg"><h3>Fancy Bottle</h3><p>Red Glass</p><div class="price">₹350</div>
+<button onclick="buyNow('Red Glass','₹350','perfume-7.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="perfume-9.jpeg"><h3>Fancy Bottle</h3><p>Red Glass</p><div class="price">₹350</div>
+<button onclick="buyNow('Red Glass 2','₹350','perfume-9.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="perfume-2.jpeg"><h3>Fancy Bottle</h3><p>Diamond Glass</p><div class="price">₹400</div>
+<button onclick="buyNow('Diamond Glass','₹400','perfume-2.jpeg')" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:20px;border:none">Buy Now</button>
+</div>
+
+</div>
+
+<script>
+function buyNow(name, price, photo) {
+  var number = "917834852844";
+  // photo ka pura link banayega
+  var fullPhotoLink = window.location.href.replace('edit/main/index.html','') + photo;
+  // agar github preview me ho to direct photo naam bhejega
+  if(fullPhotoLink.includes('github.com')){ fullPhotoLink = photo; }
+  
+  var message = "Hello LAMIA PERFUME SHOP%0A%0AMujhe ye bottle chahiye:%0A📦 *" + name + "*%0A💰 " + price + "%0A🖼️ Photo: " + fullPhotoLink + "%0A%0AYe available hai?";
+  
+  window.open("https://wa.me/" + number + "?text=" + message, "_blank");
+}
+</script>
 
 </body>
 </html>
